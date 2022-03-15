@@ -24,7 +24,7 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests! ppp, yarn test
+      # run tests! ppp, yarn 
       - run: yarn test
 
       deploy:
